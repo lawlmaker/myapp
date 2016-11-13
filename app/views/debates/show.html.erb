@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @debate.user_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @debate.name %>
+</p>
+
+<%= link_to 'Edit', edit_debate_path(@debate) %> |
+<%= link_to 'Back', debates_path %>
